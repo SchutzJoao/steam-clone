@@ -82,4 +82,24 @@
   transition: 0.1s;
 }
 
+.imagem-principal {
+  background-image: url(img/Image-principal2.png);
+  height: 55vh;
+} 
+
+.button-image {
+  position:absolute;
+  top:50%;
+  left:10%;
+  height:30px;              
+  padding: 25px 40px;
+  display: flex;
+  align-items: center;
+  font-size: 1.1em;
+  background-color: #0094ff;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5%;
+}
  
