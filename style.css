@@ -94,7 +94,7 @@ body {
 
 
 
-@media (max-width:550px) {
+/* @media (max-width:550px) {
  
   .header__menu {
     display: none;
@@ -105,10 +105,7 @@ body {
     justify-content: flex-end;
     right: 50px;
   } 
-}
-
-
-
+} */
 
 
 /*----------------------------- */
@@ -202,65 +199,119 @@ body {
   border-bottom: 3px solid #0094ff;
 }
 
+/* ......................... */
 
-
-
-
-
-    /* 
-      
-.filtre__menu {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 30px;
-  background-color: #1b2838;
-  margin: 0 190px;
-  margin-bottom: 55px;
-  border-radius: 5px;
-  width: 77.5%;
+ .search__input {
+  position: absolute;
+  /* display: flex; */
+  margin-top: 35px;
 }
-        
-.filtre__menu p {
+
+.search__input input{
+  background-color: #1b2838;
+  width: 1200px;
+  padding: 15px 45px;
+  border: none;
+  border-radius: 4%;
+  
   color: white;
   font-size: 20px;
-  cursor: pointer;
-}
-          
-.filtre__menu  :hover {
-  color: #0094ff;
-  border-bottom: 3px solid #0094ff;
+  text-transform: uppercase;
 }
 
-.search__input {
+.search__input ::placeholder {
+  font-size: 20px;
+}
+
+.fa-magnifying-glass  {
+  position: absolute;
+  display: flex;
+  font-size: 25px;    
+  color: #0094ff; 
+  cursor: pointer;
+
+  top: 15px;   
+  left: 1150px;
+  
+  
+} 
+
+
+
+
+
+
+/* .search__input {
+  margin-top: 30px;
+  position: relative;
+  width: 1200px; 
+}
+
+.search__input input {
+  width: 100%;
+  padding: 10px 35px 10px 10px; 
+  box-sizing: border-box;
+}
+
+.search__input i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888; 
+  pointer-events: none; 
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .search__input {
   display: flex;
   justify-content: center;
   position: relative;
   background-color: #1b2838;
   width: 700px;
-}
-
-.search__input input {
-  background-color: #1b2838;
-  color: white;
-  font-size: 20px;
-  text-transform: uppercase;
-  outline: none;
-  border: none;
-}
+  }
+  
+  .search__input input {
+    background-color: #1b2838;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    }
     
- .search__input ::placeholder {
-  font-size: 20px;
-} 
+    .search__input ::placeholder {
+      font-size: 20px;
+      } 
+      
+      
+      .fa-magnifying-glass  {
+        position: absolute;
+        font-size: 25px;
+        top: 30%;
+        right: 10px;
+        color: #0094ff; 
+        cursor: pointer;
+        } */
 
-
-.fa-magnifying-glass  {
-  position: absolute;
-  font-size: 25px;
-  top: 30%;
-  right: 10px;
-  color: #0094ff; 
-  cursor: pointer;
-}
+        
+        /* 
 
 .card__game {
   display: flex;
