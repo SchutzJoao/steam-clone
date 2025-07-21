@@ -7,7 +7,6 @@
 
 body {
   background-color: rgb(14, 19, 30);
-  
 }
 
 .header {
@@ -245,7 +244,7 @@ body {
 
 .filter__cards img { 
   display: flex;
-  height: 400px;
+  height: 380px;
   width: 250px;
 }  
 
@@ -264,3 +263,38 @@ body {
 .filtre__image--minegraft {
   background-image: url(img/download-minegraft.png);
 } 
+
+/* ................................. */
+
+.filter__container {
+  max-width: 1200px;
+  margin: auto ;
+  margin-top: 90px;
+}
+
+.filter__navegation h2{
+  color: white;
+  font-size: 30px;
+  
+}
+
+.navegation__nav {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  color: white;
+  font-size: 20px;
+}
+
+.navegation__nav p {
+  background-color: #0094ff;
+  padding: 20px 55px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.navegation__nav :hover {
+  background-color: #0062ff;
+}
+
+/* .............................. */
