@@ -172,7 +172,7 @@ body {
 
 /* ....................... */
 
-.filtre__menu {
+.filter__menu {
   max-width: 1200px;
   margin: auto ;
 }
@@ -202,7 +202,8 @@ body {
 /* ......................... */
 
  .search__input {
-  position: absolute;
+  position: relative;
+  /* position: absolute; */
   /* display: flex; */
   margin-top: 35px;
 }
@@ -231,96 +232,35 @@ body {
   cursor: pointer;
 
   top: 15px;   
-  left: 1150px;
-  
-  
+  left: 1150px;  
 } 
 
+/* ......................... */
 
-
-
-
-
-/* .search__input {
-  margin-top: 30px;
-  position: relative;
-  width: 1200px; 
-}
-
-.search__input input {
-  width: 100%;
-  padding: 10px 35px 10px 10px; 
-  box-sizing: border-box;
-}
-
-.search__input i {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #888; 
-  pointer-events: none; 
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .search__input {
+.filter__cards {
   display: flex;
-  justify-content: center;
-  position: relative;
-  background-color: #1b2838;
-  width: 700px;
-  }
-  
-  .search__input input {
-    background-color: #1b2838;
-    color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-    outline: none;
-    border: none;
-    }
-    
-    .search__input ::placeholder {
-      font-size: 20px;
-      } 
-      
-      
-      .fa-magnifying-glass  {
-        position: absolute;
-        font-size: 25px;
-        top: 30%;
-        right: 10px;
-        color: #0094ff; 
-        cursor: pointer;
-        } */
-
-        
-        /* 
-
-.card__game {
-  display: flex;
-
-  
+  justify-content: space-between;
+  margin-top: 90px;
 }
 
-.card__img {
-  width: 50%;
-  height: 50%;
-  
-}*/
+.filter__cards img { 
+  display: flex;
+  height: 400px;
+  width: 250px;
+}  
+
+.filtre__image--farcry {
+  background-image: url(img/download-farcry6.png);
+} 
+
+.filtre__image--forza {
+  background-image: url(img/download-forza.png);
+} 
+
+.filtre__image--fifa {
+  background-image: url(img/download-fifa.png);
+} 
+
+.filtre__image--minegraft {
+  background-image: url(img/download-minegraft.png);
+} 
