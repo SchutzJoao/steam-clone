@@ -248,19 +248,19 @@ body {
   width: 250px;
 }  
 
-.filtre__image--farcry {
+.filter__image--farcry {
   background-image: url(img/download-farcry6.png);
 } 
 
-.filtre__image--forza {
+.filter__image--forza {
   background-image: url(img/download-forza.png);
 } 
 
-.filtre__image--fifa {
+.filter__image--fifa {
   background-image: url(img/download-fifa.png);
 } 
 
-.filtre__image--minegraft {
+.filter__image--minegraft {
   background-image: url(img/download-minegraft.png);
 } 
 
@@ -353,4 +353,34 @@ body {
   border-radius: 5px;
 }
 
+/* ............................. */
 
+
+.free__container {
+  max-width: 1200px;
+  margin: auto ;
+  margin-top: 90px;
+}
+
+.games__free h2 {
+  color: white;
+  font-size: 28px;
+}
+
+.layout__games {
+  margin: 40px 0;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 25px;
+}
+
+.layout__games img {
+  width: 385px;
+  border-radius: 4px;
+}
+
+.layout__games h3{
+  display: flex;
+  color: white;
+  justify-content: center;
+}
