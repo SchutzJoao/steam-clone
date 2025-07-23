@@ -274,7 +274,7 @@ body {
 
 .filter__navegation h2{
   color: white;
-  font-size: 30px;
+  font-size: 28px;
   
 }
 
@@ -298,3 +298,59 @@ body {
 }
 
 /* .............................. */
+
+.category__container {
+  max-width: 1200px;
+  margin: auto ;
+  margin-top: 90px;
+}
+
+.category__navegation h2{
+  color: white;
+  font-size: 28px;
+}
+
+.category__list {
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.category__list img {
+  width: 250px;
+  height: 150px;
+  border-radius: 4px;
+}
+
+.category__list h3 {
+  color: white;
+  /* margin-top: 10px; */
+  margin: 15px 0;
+}
+
+.category__list span{
+  display: flex;
+  color: white;
+  gap: 16px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.category__list del {
+  color: #ACB5A5;
+}
+
+.value__discount {
+  color: white;
+  background-color: #0062ff;
+  width: 55px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+
