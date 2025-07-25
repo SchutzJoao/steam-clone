@@ -431,7 +431,7 @@ body {
 }
 
 .game__real {
-  color: white;
+  color: white; 
 }
 
 .container__big p {
@@ -476,3 +476,15 @@ body {
 }
 
 /* .......................... */
+
+.footer__container {
+  margin-top: 65px;
+  background-color: #1b2838;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.div__footer {
+  font-size: 40px;
+}
