@@ -9,6 +9,17 @@ body {
   background-color: rgb(14, 19, 30);
 }
 
+.p-item {
+  cursor: pointer;
+  color: white;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 1.5px;
+}
+
+.p-item:hover {
+  border-bottom: 2px solid #0094ff;
+}
+
 .header {
   display: flex;
   background-color: #1b2838;
@@ -34,13 +45,6 @@ body {
 .header__menu {
   display: flex;
   gap: 50px;
-  cursor: pointer;
-  color: white;
-}
-
-.header__menu :hover {
-  color: #0094ff;
-  border-bottom: 3px solid #0094ff;
 }
 
 .header__notification {
@@ -186,16 +190,6 @@ body {
 .options__menu {
   display: flex;
   justify-content: space-between;
-  color: white;
-}
-
-.options__menu p {
-  cursor: pointer;
-}
-
-.options__menu :hover {
-  color: #0094ff;
-  border-bottom: 3px solid #0094ff;
 }
 
 /* ......................... */
