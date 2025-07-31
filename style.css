@@ -26,6 +26,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px 45px;
+  flex-wrap: wrap;
 }
 
 .header__nav {
@@ -45,6 +46,7 @@ body {
 .header__menu {
   display: flex;
   gap: 50px;
+  flex-wrap: wrap;
 }
 
 .header__notification {
@@ -189,10 +191,12 @@ body {
   background-color: #1b2838;
   margin-top: 90px;
   border-radius: 4px;
-  padding: 24px 40px;
+  padding: 25px 45px;
 }
 
 .options__menu {
+  flex-wrap: wrap;
+  gap: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -200,19 +204,20 @@ body {
 /* ......................... */
 
  .search__input {
-  position: relative;
-  /* position: absolute; */
-  /* display: flex; */
+  display: flex;
   margin-top: 35px;
+  align-items: center;
+  background-color: #1b2838;
+  border-radius: 4px;
+  padding: 0 45px;
 }
 
 .search__input input{
   background-color: #1b2838;
-  width: 1200px;
-  padding: 15px 45px;
+  width: 100%;
+  padding: 15px 0;
   border: none;
   border-radius: 4px;
-  
   color: white;
   font-size: 20px;
   text-transform: uppercase;
@@ -222,16 +227,11 @@ body {
   font-size: 20px;
 }
 
-.fa-magnifying-glass  {
-  position: absolute;
-  display: flex;
-  font-size: 25px;    
-  color: #0094ff; 
+.search__icon {
+  color: #0094ff;
+  font-size: 25px;
   cursor: pointer;
-
-  top: 15px;   
-  left: 1150px;  
-} 
+}
 
 /* ......................... */
 
@@ -240,6 +240,9 @@ body {
   justify-content: space-around;
   margin-top: 90px;
   gap: 20px;
+
+    flex-wrap: wrap;
+
 }
 
 .cards__item {
@@ -285,7 +288,6 @@ body {
 .filter__navegation h2{
   color: white;
   font-size: 28px;
-  
 }
 
 .navegation__nav {
@@ -294,6 +296,8 @@ body {
   justify-content: space-between;
   color: white;
   font-size: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .navegation__nav p {
@@ -301,6 +305,7 @@ body {
   padding: 20px 55px;
   border-radius: 4px;
   cursor: pointer;
+  flex-grow: 1;
 }
 
 .navegation__nav :hover {
@@ -365,7 +370,6 @@ body {
 
 /* ............................. */
 
-
 .free__container {
   max-width: 1200px;
   margin: auto ;
@@ -380,8 +384,10 @@ body {
 .layout__games {
   margin: 40px 0;
   display: flex;
-  /* justify-content: space-between; */
   gap: 25px;
+
+  flex-wrap: wrap;
+
 }
 
 .layout__games img {
