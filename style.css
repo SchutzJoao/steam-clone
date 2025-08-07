@@ -99,23 +99,7 @@ body {
   border: 3px solid #0094ff;
   border-radius: 50%;
   transition: 0.01s;
-} 
-
-
-
-/* @media (max-width:550px) {
- 
-  .header__menu {
-    display: none;
-  }
-
-   .header__icon-wrapper {
-    
-    justify-content: flex-end;
-    right: 50px;
-  } 
-} */
-
+}
 
 /*----------------------------- */
 
@@ -240,8 +224,7 @@ body {
   justify-content: space-around;
   margin-top: 90px;
   gap: 20px;
-
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 
 }
 
@@ -503,4 +486,187 @@ body {
 
 .div__footer {
   font-size: 40px;
+}
+
+
+/* CELULAR */
+ @media (max-width: 480px) {
+
+  .header {
+    width: 900px;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__icon--hover {
+    display: none;
+  }
+
+   .header__icon-wrapper{
+    width: 5px;
+  } 
+
+   .header__user {
+    width: 20px;
+  } 
+  
+  /* ................... */
+  
+   .hero {
+    height: 300px;
+    width: 480px;
+    background-size:cover ;
+  }
+  
+  .hero__content {
+    width: 450px;
+    gap: 15px;
+  }
+  
+  .hero__image {
+    width: 125px;
+  }
+  
+  .hero__text {
+    font-size: 15px;
+    width: 250px;
+  }
+  
+  .hero__button {
+    padding: 8px;
+    width: 150px;
+    font-size: 13px;
+  } 
+
+  .image__select  {
+    width: 900px;
+  }
+
+/* ............... */
+
+  .filter__menu {
+    margin: auto 50px;
+    width: 800px;
+    
+  }
+
+  .options__menu {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+  }
+
+/* ................... */
+
+.filter__container {
+  width: 550px;
+  margin: 0 160px;
+}
+
+.filter__navegation {
+  margin-top: 100px;
+} 
+  
+
+
+
+
+
+
+}
+
+/* TABLET */
+@media (max-width: 900px) {
+
+   .header__menu {
+    display: none;
+  }
+
+  .header__icon--hover {
+    display: none;
+  }
+
+   .header__icon-wrapper{
+    width: 5px;
+  } 
+
+  /* ................. */
+
+   .hero {
+    height: 400px;
+    width: 900px;
+    background-size:cover ;
+  }
+  
+  .hero__content {
+    width: 700px;
+    gap: 15px;
+  }
+  
+  .hero__image {
+    width: 125px;
+  }
+  
+  .hero__text {
+    font-size: 15px;
+    width: 250px;
+  }
+  
+  .hero__button {
+    padding: 8px;
+    width: 150px;
+    font-size: 13px;
+  } 
+
+  /* ........... */
+
+  .cards__item  {
+    width: 900px;
+  }
+  
+  
+ 
+
+
+/* ................. */
+
+  .filter__menu {
+    margin: auto 50px;
+    width: 800px;
+    
+  }
+
+  .options__menu {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 40px;
+  }
+
+/* ............... */
+
+.filter__container {
+  /* width: 550px; */
+  margin: 0 45px;
+  max-width: 900px;
+}
+
+.filter__navegation {
+  margin-top: 100px;
+  
+} 
+
+.navegation__nav p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
 }
