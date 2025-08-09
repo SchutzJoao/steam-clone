@@ -9,14 +9,14 @@ body {
   background-color: rgb(14, 19, 30);
 }
 
-.p-item {
+.header__menu-item  {
   cursor: pointer;
   color: white;
   border-bottom: 2px solid transparent;
   padding-bottom: 1.5px;
 }
 
-.p-item:hover {
+.header__menu-item:hover {
   border-bottom: 2px solid #0094ff;
 }
 
@@ -490,81 +490,96 @@ body {
 
 
 /* CELULAR */
- @media (max-width: 480px) {
+@media (max-width: 480px) {
 
-  .header {
-    width: 900px;
-  }
+.header {
+  width: 100%;
+}
 
-  .header__menu {
-    display: none;
-  }
+.header__menu {
+  display: none;
+}
 
-  .header__icon--hover {
-    display: none;
-  }
+.header__icon--hover {
+  display: none;
+}
 
-   .header__icon-wrapper{
-    width: 5px;
-  } 
+.header__icon-wrapper{
+  width: 5px;
+} 
 
-   .header__user {
-    width: 20px;
-  } 
+.header__user {
+  width: 20px;
+} 
   
-  /* ................... */
+/* ................... */
   
-   .hero {
-    height: 300px;
-    width: 480px;
-    background-size:cover ;
-  }
-  
-  .hero__content {
-    width: 450px;
-    gap: 15px;
-  }
-  
-  .hero__image {
-    width: 125px;
-  }
-  
-  .hero__text {
-    font-size: 15px;
-    width: 250px;
-  }
-  
-  .hero__button {
-    padding: 8px;
-    width: 150px;
-    font-size: 13px;
-  } 
+.hero {
+  height: 330px;
+  /* width: 480px; */
+  width: 100%;
+  background-size: cover;
+}
 
-  .image__select  {
-    width: 900px;
-  }
+.hero__content {
+  width: 100%;
+  padding: 0 30px;
+} 
+
+.hero__image {
+  width: 170px;
+} 
+  
+.hero__text {
+  font-size: 17px;
+  width: 250px;
+}
+  
+.hero__button {
+  padding: 8px;
+  width: 150px;
+  font-size: 13px;
+} 
+
+.image__select {
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+} 
 
 /* ............... */
 
-  .filter__menu {
-    margin: auto 50px;
-    width: 800px;
-    
-  }
+.filter__menu {
+  margin: 0 10px;
+} 
 
-  .options__menu {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    font-size: 30px;
-  }
+.menu__nav {
+  margin-top: 50px;
+}
+  
+.options__menu {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.cards__item {
+  width: 280px !important;
+}
+
 
 /* ................... */
 
-.filter__container {
-  width: 550px;
-  margin: 0 160px;
+.search__input {
+  margin-top: 50px;
 }
+
+/* ................ */
+
+.filter__container {
+  margin: 0 10px;
+} 
 
 .filter__navegation {
   margin-top: 100px;
@@ -579,6 +594,7 @@ body {
 }
 
 /* TABLET */
+
 @media (max-width: 900px) {
 
    .header__menu {
@@ -597,7 +613,7 @@ body {
 
    .hero {
     height: 400px;
-    width: 900px;
+    /* width: 900px; */
     background-size:cover ;
   }
   
@@ -635,7 +651,7 @@ body {
 
   .filter__menu {
     margin: auto 50px;
-    width: 800px;
+    /* width: 800px; */
     
   }
 
