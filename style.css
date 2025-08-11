@@ -262,18 +262,18 @@ body {
 
 /* ................................. */
 
-.filter__container {
+.filter-container {
   max-width: 1200px;
   margin: auto ;
   margin-top: 90px;
 }
 
-.filter__navegation h2{
+.filter-container__title h2{
   color: white;
   font-size: 28px;
 }
 
-.navegation__nav {
+.filter-container__nav{
   display: flex;
   margin-top: 50px;
   justify-content: space-between;
@@ -283,7 +283,7 @@ body {
   gap: 20px;
 }
 
-.navegation__nav p {
+.filter-container__nav p {
   background-color: #0094ff;
   padding: 20px 55px;
   border-radius: 4px;
@@ -291,13 +291,13 @@ body {
   flex-grow: 1;
 }
 
-.navegation__nav :hover {
+.filter-container__nav :hover {
   background-color: #0062ff;
 }
 
 /* .............................. */
 
-.category__container {
+.category {
   max-width: 1200px;
   margin: auto ;
   margin-top: 90px;
@@ -340,7 +340,7 @@ body {
   color: #ACB5A5;
 }
 
-.value__discount {
+.category__value-discount {
   color: white;
   background-color: #0094ff;
   width: 55px;
@@ -577,11 +577,11 @@ body {
 
 /* ................ */
 
-.filter__container {
+.filter-container {
   margin: 0 10px;
 } 
 
-.filter__navegation {
+.filter-container__title {
   margin-top: 100px;
 } 
   
@@ -665,18 +665,18 @@ body {
 
 /* ............... */
 
-.filter__container {
+.filter-container {
   /* width: 550px; */
   margin: 0 45px;
   max-width: 900px;
 }
 
-.filter__navegation {
+.filter-container__title {
   margin-top: 100px;
   
 } 
 
-.navegation__nav p{
+.filter-container__nav p{
   display: flex;
   align-items: center;
   justify-content: center;
