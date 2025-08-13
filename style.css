@@ -353,66 +353,64 @@ body {
 
 /* ............................. */
 
-.free__container {
+.free-container {
   max-width: 1200px;
   margin: auto ;
   margin-top: 90px;
 }
 
-.games__free h2 {
+.free-container__games h2 {
   color: white;
   font-size: 28px;
 }
 
-.layout__games {
+.free-container__layout {
   margin: 40px 0;
   display: flex;
   gap: 25px;
 
-  flex-wrap: wrap;
-
 }
 
-.layout__games img {
+.free-container__layout img {
   width: 385px;
   border-radius: 4px;
 }
 
-.layout__games h3{
+.free-container__layout h3{
   display: flex;
   color: white;
   justify-content: center;
 }
 
-.container__big {
+.free-container__layout-big {
   display: flex;
   gap: 25px;
   height: 482px;
 }
 
-.game__big--1 {
+.free-container__layout-game {
   border-radius: 4px;
   background-color: rgb(27, 40, 56);
 }
 
-.container__big h3{
+.free-container__layout-big h3{
   margin-top: 30px;
   font-size: 28px;
   width: 250px;
 } 
 
-.container__big span {
+.free-container__layout-big span {
   display: flex;
   align-items: center;
   gap: 12px;
   font-size: 20px;
 }
 
-.game__offer {
+.free-container__layout-offer {
   color: #ACB5A5;
 }
 
-.game__discount {
+.free-container__layout-discount {
   color: white;
   background-color: #0094ff;
   width: 65px;
@@ -423,31 +421,22 @@ body {
   border-radius: 5px;
 }
 
-.game__old {
+.free-container__layout-old {
   color: #ACB5A5;
   margin-top: 20px;
   margin-left: 20px;
 }
 
-.game__real {
+.free-container__layout-real {
   color: white; 
 }
 
-.container__big p {
+.free-container__layout-big p {
   font-size: 17px;
   margin: 20px 0 0 20px;
 }
 
-.game__big--2 {
-  border-radius: 4px;
-  background-color: rgb(27, 40, 56);
-}
-
-.game__big--2 h3 {
-  width: 290px;
-}
-
-.game__container img {
+.free-container__small img {
   height: 170px;
 }
 
@@ -463,20 +452,15 @@ body {
   font-size: 23px;
 }
 
-.game__small--3 {
+.free-container__small-game {
   margin-bottom: 20px;
-  background-color: rgb(27, 40, 56);
-  border-radius: 4px;
-}
-
-.game__small--4 {
   background-color: rgb(27, 40, 56);
   border-radius: 4px;
 }
 
 /* .......................... */
 
-.footer__container {
+.footer-container {
   margin-top: 65px;
   background-color: #1b2838;
   padding: 15px 0;
@@ -484,7 +468,7 @@ body {
   justify-content: center;
 }
 
-.div__footer {
+.footer-container i {
   font-size: 40px;
 }
 
